@@ -3,8 +3,8 @@ const { Recipe, Diet } = require("../db");
 const axios = require("axios");
 require("dotenv").config();
 
-const { API_KEY } = process.env;
-/* const { API_KEY } = require("../config.js") */
+/* const { API_KEY } = process.env; */
+const { API_KEY } = require("../config.js")
 
 
 const router = Router();
